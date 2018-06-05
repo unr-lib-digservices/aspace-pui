@@ -1,4 +1,5 @@
-#GW Libraries ArchivesSpace Public User Interface
+# GW Libraries ArchivesSpace Public User Interface
+
 The GW Libraries ArchivesSpace PUI customizations are fully documented in this repo.
 
 ## Customizations for this PUI are achieved by two types of edits:
