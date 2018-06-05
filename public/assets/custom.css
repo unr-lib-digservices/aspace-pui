@@ -1,0 +1,50 @@
+/* Use GW Libraries font, throughout all of PUI*/
+@font-face {
+    font-family: AvenirLTStd-Roman;
+    src: url(/assets/fonts/AvenirNextLTPro-Regular.otf);
+}
+body {
+	font-family:"AvenirLTStd-Roman", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+
+/* Use official GW colors in the header, throughout all of PUI*/
+#header {
+	background-color:#004065;
+}
+#header .h1, #header .h1 a {
+	color: white;
+	font-weight:normal;
+}
+
+/* Add margin at the top of the header so that logo doesn't hit top of page, and reduce size of image so that total size of header is unaffected */
+#header .logo {
+	margin-top:5px;
+	height:70px;
+}
+
+/* Use official GW colors */
+h1, .h1 {
+	color: #004065;
+}
+
+/* Style custom GW footer content*/
+.panel-footer {
+    margin-top: 4em;
+}
+.panel-footer ul.footer-list {
+    list-style-type: none;
+    float: left;
+    text-align: left;
+}
+
+/* Make breadcrumbs more obvious to users */
+nav[aria-label="hierarchical navigation"] ul.breadcrumb {
+	background-color:#c2ffa8;
+}
+nav[aria-label="hierarchical navigation"] ul.breadcrumb:before{
+	content: "This record is located within:";
+}
+.breadcrumb>li+li:before {
+    content: "\003e\00a0";
+}
