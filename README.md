@@ -3,7 +3,7 @@
 The GW Libraries ArchivesSpace PUI customization files and documentation can be found in this repo.
 
 ## Version
-These configurations are made to [ArchivesSpace version 2.3.2](https://github.com/archivesspace/archivesspace/tree/v2.3.2)
+These configurations are made to [ArchivesSpace version 2.3.2](https://github.com/archivesspace/archivesspace/releases/tag/v2.3.2)
 
 ## Customizations for this PUI are achieved by two types of edits:
 1. Configurations to the configuration file: config/config.rb. These configurations are described below.
