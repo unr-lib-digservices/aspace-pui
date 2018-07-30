@@ -1,52 +1,43 @@
-/* Use GW Libraries font, throughout all of PUI*/
-@font-face {
-    font-family: AvenirLTStd-Roman;
-    src: url(/assets/fonts/AvenirNextLTPro-Regular.otf);
-}
 body {
-	font-size:16px;
-}
-body, h1, h2, h3, .h1, .h2, .h3 {
-	font-family:"AvenirLTStd-Roman", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:16px;
 }
 
-/* Use official GW colors in the header, throughout all of PUI*/
-#header {
-	background-color:#004065;
-}
-#header .h1, #header .h1 a {
-	color: white;
-	font-weight:normal;
-}
-a, a:hover {
-	color:#0073AA;
-}
-h1, .h1 {
-	color: #004065;
+/* Use UNR Libraries font, throughout all of PUI*/
+h1, .h1, a { color: #003366; }
+h2, .h2 { color: #807f84; }
+h3 { color: #807f84; }
+
+#header > .row { border-bottom: 0.25rem solid #003366; }
+
+.btn-primary {
+  background-color: #003366;
+  border-color: #003366;
 }
 
-/* GWLAI Web Team recommendation to tone down badge colors. Colors below are more subtle versions of the out-of-the-box colors. */
-.record-type-badge.resource { /*red badges for Resources */
-	color:#ef6523; 
-	border-color:#ef6523;
-}
-.record-type-badge.top_container { /*green badges for Containers */
-	color:#23ab33;
-	border-color:#23ab33;
-}
-.record-type-badge.agent {
-	color:#004065;
-	border-color:##004065;
-}
+.btn-primary:focus,.btn-primary.focus { background-color: #003366; }
+.btn-primary:hover { background-color: #999999; }
 
-/* Add margin at the top of the header so that logo doesn't hit top of page, and reduce size of image so that total size of header is unaffected */
-#header .logo {
-	margin-top:5px;
-	height:70px;
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  background-color: #003366;
+  border-color: #003366;
 }
+.pagination > li > a, .pagination > li > span { color: #003366; }
 
+.navbar-default .navbar-nav > li > a { color: #003366; }
 
-/* Style custom GW footer content*/
+.record-type-badge.agent { color: #0048a5; } 
+.record-type-badge.archival_object { color: #9aa86e; } 
+.record-type-badge.digital_object { color: #fdb813; } 
+.record-type-badge.repository { color: #0bb3e4; }
+.record-type-badge.resource { color: #807f84; }
+.record-type-badge.subject { color: #00637b; }
+
+/* Style custom UNR footer content*/
 .panel-footer {
     margin-top: 4em;
 }
@@ -54,15 +45,4 @@ h1, .h1 {
     list-style-type: none;
     float: left;
     text-align: left;
-}
-
-/* Make breadcrumbs more obvious to users */
-nav[aria-label="hierarchical navigation"] ul.breadcrumb { /* colored box */
-	background-color:#d2fba4;
-}
-nav[aria-label="hierarchical navigation"] ul.breadcrumb:before{ /* label before breadcrumb */
-	content: "This record is located within:";
-}
-.breadcrumb>li+li:before { /* carrot between breadcrumb levels */
-    content: "\003e\00a0";
 }
