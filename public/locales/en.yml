@@ -21,11 +21,11 @@
 
 en:
   brand:
-    title: UNR Special Collections Finding Aids
+    title: University Libraries Special Collection Guides
     title_link_text: Return to the homepage
     home: Home
     welcome_head: Welcome to the Special Collections Finding Aids
     welcome_message: |
-                     <p>Explore our collections, digital materials, and more.</p><p>When requesting materials, please take note of the collection and home repository. The contact information for each repository is listed in the finding aids.</p>
+                     <p>Use these guides to explore our manuscript, photograph, and maps collections.</p><p>Materials in these guides come from the Special Collections and University Archives Department, the Basque Library, and the DeLaMare Science & Engineering Library.</p><p>When requesting materials, please take note of the collection and home repository. The contact information for each repository is listed in the finding aids.</p>
     welcome_search_label: "Find what you're looking for:"
     welcome_page_title: Finding Aids Public Interface
