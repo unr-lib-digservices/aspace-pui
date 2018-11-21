@@ -20,6 +20,10 @@ body {
 	font-weight:normal;
 }
 
+a, a:hover {
+	color: #003366;
+}
+
 h1, .h1, a { color: #003366; }
 h2, .h2 { color: #003366; }
 h3 { color: #003366; }
@@ -32,7 +36,7 @@ h3 { color: #003366; }
 }
 
 .btn-primary:focus,.btn-primary.focus { background-color: #003366; }
-.btn-primary:hover { background-color: #999999; }
+.btn-primary:hover { background-color: #000000; }
 
 .pagination > .active > a,
 .pagination > .active > a:hover,
