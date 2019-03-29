@@ -58,6 +58,10 @@ h3 { color: #003366; }
 .record-type-badge.resource { color: #003366; }
 .record-type-badge.subject { color: #00637b; }
 
+/* Accessible colors for DO badge
+.record-type-badge.digital_object { color: #e01919; }
+.record-type-badge.digital_object { border-color: #ddd; }
+
 /* Style custom UNR footer content*/
 .panel-footer {
     margin-top: 4em;
