@@ -57,13 +57,13 @@ h3 { color: #003366; }
 
 .record-type-badge.agent { color: #0048a5; } 
 .record-type-badge.archival_object { color: #9aa86e; } 
-.record-type-badge.digital_object { color: #fdb813; } 
+.record-type-badge.digital_object { color: #a11717; } 
 .record-type-badge.repository { color: #0bb3e4; }
 .record-type-badge.resource { color: #003366; }
 .record-type-badge.subject { color: #00637b; }
 
 /* Accessible colors for DO badge*/
-.record-type-badge.digital_object { color: #e01919; }
+.record-type-badge.digital_object { color: #a11717; }
 .record-type-badge.digital_object { border-color: #ddd; }
 
 /* Accessible colors for archival objects and top containers*/
