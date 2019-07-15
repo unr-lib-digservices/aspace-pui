@@ -80,3 +80,25 @@ h3 { color: #003366; }
     float: left;
     text-align: left;
 }
+
+/* Eliminate the curves on the tabbing pills*/
+.tabbing.nav-pills > li:first-child a {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.tabbing.nav-pills > li > a {
+	margin-bottom: 0;
+	margin-right: 0;
+	border-radius: 0;
+	background-color: #000;
+}
+
+.tabbing.nav-pills > li:last-child a {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.tabbing.nav-pills > li > a {
+	margin-left: 0px;
+}
