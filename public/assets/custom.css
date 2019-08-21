@@ -12,7 +12,7 @@ body {
 }
 
 #header {
-	background-color:#003366;
+	background-color: #003366;
 }
 
 #header .h1, #header .h1 a {
@@ -20,15 +20,17 @@ body {
 	font-weight:normal;
 }
 
-a, a:hover {
-	color: #003366;
+a { color: #a94442 }
+
+a:hover {
+	color: #d20000;
 }
 
-a, a:focus {
-  	color: #e00000;
+a:focus {
+  color: #d20000;
 }
 
-h1, .h1, a { color: #003366; }
+h1, .h1 { color: #003366 }
 h2, .h2 { color: #003366; }
 h3 { color: #003366; }
 
@@ -55,21 +57,20 @@ h3 { color: #003366; }
 
 .navbar-default .navbar-nav > li > a { color: #003366; }
 
+.record-type-badge.accession { color: #000000; }
 .record-type-badge.agent { color: #0048a5; } 
 .record-type-badge.archival_object { color: #9aa86e; } 
-.record-type-badge.digital_object { color: #a11717; } 
+.record-type-badge.digital_object { color: #000000; } 
 .record-type-badge.repository { color: #0bb3e4; }
 .record-type-badge.resource { color: #003366; }
-.record-type-badge.subject { color: #00637b; }
+.record-type-badge.subject { color: #000000; }
 
-/* Accessible colors for DO badge*/
-.record-type-badge.digital_object { color: #a11717; }
-.record-type-badge.digital_object { border-color: #ddd; }
-
-/* Accessible colors for archival objects and top containers*/
-.record-type-badge.archival_object { border-color: #e01919; }
+.record-type-badge.digital_object { color: #000000; }
+.record-type-badge.digital_object { border-color: #a11717; }
+.record-type-badge.archival_object { border-color: #000000; }
 .record-type-badge.archival_object { color: #e01919; }
 .top_container { color: #e01919; }
+
 
 /* Style custom UNR footer content*/
 .panel-footer {
