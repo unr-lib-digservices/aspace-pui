@@ -71,7 +71,7 @@ body { color: #000000; }
 .record-type-badge.digital_object { border-color: #a11717; }
 .record-type-badge.archival_object { border-color: #000000; }
 .record-type-badge.archival_object { color: #e01919; }
-.top_container { color: #e01919; }
+.top_container { color: #000000; }
 
 
 /* Style custom UNR footer content*/
