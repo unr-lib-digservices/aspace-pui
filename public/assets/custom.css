@@ -34,6 +34,8 @@ h1, .h1 { color: #003366 }
 h2, .h2 { color: #003366; }
 h3 { color: #003366; }
 
+body { color: #000000; }
+
 #header > .row { border-bottom: 0.25rem solid #003366; }
 
 .btn-primary {
