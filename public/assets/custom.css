@@ -60,17 +60,17 @@ body { color: #000000; }
 .navbar-default .navbar-nav > li > a { color: #003366; }
 
 .record-type-badge.accession { color: #000000; }
-.record-type-badge.agent { color: #0048a5; } 
-.record-type-badge.archival_object { color: #9aa86e; } 
+.record-type-badge.agent { color: #000000; } 
+.record-type-badge.archival_object { color: #000000; } 
 .record-type-badge.digital_object { color: #000000; } 
-.record-type-badge.repository { color: #0bb3e4; }
-.record-type-badge.resource { color: #003366; }
+.record-type-badge.repository { color: #000000; }
+.record-type-badge.resource { color: #000000; }
 .record-type-badge.subject { color: #000000; }
 
 .record-type-badge.digital_object { color: #000000; }
-.record-type-badge.digital_object { border-color: #a11717; }
+.record-type-badge.digital_object { border-color: #000000; }
 .record-type-badge.archival_object { border-color: #000000; }
-.record-type-badge.archival_object { color: #e01919; }
+.record-type-badge.archival_object { color: #000000; }
 .top_container { color: #000000; }
 
 
