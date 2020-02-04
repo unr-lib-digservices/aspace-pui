@@ -41,7 +41,8 @@ UNR uses the built-in "local" plugin to customize the public portal of ArchivesS
 * /assets/custom.css - custom CSS file, which overwrites the default styling. Explanations for each overwrite are in the custom.css file itself.
 * /assets/images/logo.png - logo image file, to replace the default ArchivesSpace logo; remember, it has to be updated in the config.rb file as well (see above).
 * /locales/en.yml - Ruby on Rails vocabulary file, where we set the header title, welcome text on home page, and other standard vocabulary terms throughout the site. Having this file in the plugin overwrites the equivalent file in the core code. 
-* /views/shared/_footer.html.erb - customized footer, which is based on and overwrites the equivalent file in the core code. 
+* /views/shared/_footer.html.erb - customized footer, which is based on and overwrites the equivalent file in the core code.
+* /views/shared/_skipnav.html.erb - Adds ARIA landmark to the existing core code
 * /views/layout_head.html.erb - this file is used to "activate" the custom css file
 
 Further documentation on theming ArchivesSpace can be found at:
