@@ -3,7 +3,7 @@
 The UNR Libraries ArchivesSpace PUI customization files and documentation can be found in this repo. 
 
 ## Version
-These configurations are made to [ArchivesSpace version 2.5.2](https://github.com/archivesspace/archivesspace/releases/tag/v2.5.2), though a version of the plugin is also running on 2.7.1.
+These configurations are currently running on version 2.7.1.
 
 ## Customizations for this PUI are achieved by two types of edits:
 1. Configurations to the core code configuration file config.rb, found at /path/to/aspace/config/config.rb. These configurations are described below.
