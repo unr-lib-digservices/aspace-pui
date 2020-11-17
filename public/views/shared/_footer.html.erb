@@ -1,30 +1,10 @@
-<div id+"footer" role="contentinfo" class="container-fluid panel-footer">
+<div class="container-fluid panel-footer">
   <div class="row">
-
-	<div class="col-md-4">
-	  <ul class="footer-list">
-	  	<li><a href="https://library.unr.edu/">University of Nevada, Reno Libraries</a></li>
-		<li>Mathewson-IGT Knowledge Center</li>
-		<li>1664 N. Virginia Street MS 322</li>
-		<li>Reno, NV</li>
-	  </ul>
-	</div>  
-  
-	<div class="col-md-4">
-	  <ul class="footer-list">
-		<li><a href="https://library.unr.edu/specoll/">Special Collections and University Archives</a></li>
-		<li><a href="https://library.unr.edu/Basque">Jon Bilbao Basque Library</a></li>
-		<li><a href="https://library.unr.edu/delamare">DeLaMare Science & Engineering Library</a></li>
-	  </ul>
-	</div>
-	
-	 <div class="col-md-4">
-       <ul class="footer-list">
-		<li><a href="<https://archive.library.unr.edu/staff>">Staff Interface</a></li>
-		<li><a href="https://archivesspace.org">ArchivesSpace</a> <%= ASConstants.VERSION %></li>
-		<li><% if AppConfig[:feedback_url] && !AppConfig[:feedback_url].blank? %><a id='aspaceFeedbackLink' href='https://library.unr.edu/specoll/archival-guides-help' target='_blank'>Help</a><% end %></li>
-	        <li><a href="https://www.unr.edu/accessibility/commitment/">Commitment to Accessibility</a></li>
-	  </ul>
+     <div class="col-md-12">
+       <p class="footer-items"><a href="<%= AppConfig[:frontend_proxy_url] %>">Staff Interface</a>
+         | Visit <a href="http://archivesspace.org">ArchivesSpace.org</a>
+         | <%= ASConstants.VERSION %>
+         | <% if AppConfig[:feedback_url] && !AppConfig[:feedback_url].blank? %><a id='aspaceFeedbackLink' href='<%= AppConfig[:feedback_url]%>' target='_blank'>Help</a><% end %></p>
      </div>
   </div>
 </div>
